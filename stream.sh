@@ -1,7 +1,7 @@
 #!/bin/bash -ex
  
 ## find your "hadoop-streaming.jar" and set this appropriately
-STREAM_JAR=$HADOOP_HOME/contrib/streaming/hadoop-streaming-1.0.3.jar
+STREAM_JAR=$HADOOP_HOME/contrib/streaming/hadoop-streaming-1.2.0.jar
  
 ## clear the output directory (Hadoop requires this)
 rm -rf out
